@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "test_username",
+      "discriminator": "1000",
+      "avatar": "test_avatar",
+      "bot": "false",
+      "mfa_enabled": "false",
+      "locale": "test_locale",
+      "verified": "true",
+      "email": "test_email",
+      "flags": "100",
+      "premium_type": "100"
+    },
+    {
+      "id": "2",
+      "username": "test_username",
+      "discriminator": "1000",
+      "avatar": "test_avatar",
+      "bot": "true",
+      "mfa_enabled": "flase",
+      "locale": "test_locale",
+      "verified": "treu",
+      "email": "test_email",
+      "flags": "100",
+      "premium_type": "100"
+    }
+  ]
+}
