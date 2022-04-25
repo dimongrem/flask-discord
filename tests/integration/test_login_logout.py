@@ -185,7 +185,7 @@ def test_logout(app, mocker):
         response = client.get('/logout/', follow_redirects=False)
         assert response.status_code == 302
         parsed_url = urlparse(response.location)
-        assert parsed_url.hostname == 'localhost'
+        assert parsed_url.hostname is None
         assert parsed_url.path == '/'
 
 
